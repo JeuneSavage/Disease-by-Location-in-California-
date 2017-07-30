@@ -17,7 +17,6 @@ router.get('/counties/:id', function (req, res) {
   })
   console.log(`response countries: ${responseCounties}, req params: ${req.params.id}`)
   res.json(responseCounties)
-  res.json(null)
 })
 
 export default router

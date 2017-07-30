@@ -1,5 +1,9 @@
 <template>
-  <div>
+  <div id="outershell">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    </head>
     <nuxt/>
     <my-footer/>
   </div>
@@ -49,4 +53,14 @@ export default {
   font-size: 2.5em;
   margin: 0;
 }
+
+* {
+  font-family: Roboto;
+}
+
+#outershell {
+  max-width: 700px;
+  margin: auto;
+}
+
 </style>
