@@ -1,4 +1,20 @@
-var fs = require('fs');
-var json = JSON.parse(fs.readFileSync('/jsontest.json', 'utf8'));
-const Counties = json
+
+const Counties = [
+  {
+    name: 'Shasta',
+    risks: [{
+      name: 'chlamydia',
+      rate: '.361'
+    }]
+  },
+  {
+    name: 'San Francisco',
+    risks: [
+      {
+        name: 'chlamydia',
+        rate: '.888'
+      }
+    ]
+  }
+]
 export default Counties
