@@ -37,8 +37,8 @@ body {
   display: inline-block;
   color: black;
   letter-spacing: 1px;
-  background-color: #fff;
-  border: 2px solid #000;
+  background-color: white;
+  border: 2px solid white;
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 45px;
@@ -46,13 +46,13 @@ body {
 
 .button:hover, .button:focus
 {
-  color: #fff;
-  background-color: #000;
+  color: white;
+  background-color: white;
 }
 
 .title
 {
-  color: #000;
+  color: white;
   font-weight: 300;
   font-size: 2.5em;
   margin: 0;
