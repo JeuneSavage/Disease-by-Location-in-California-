@@ -1,7 +1,7 @@
 export default {
-  lime: '#94ffc7',
+  Lime: '#94ffc7',
   Lavender: '#8e83df',
-  Teal:'#6ab3e6',
+  Teal: '#6ab3e6',
   Pink: '#ec9afe',
   Puke: '#badf44',
   DarkBlue: '#024d86',

@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <h3>Find a county with it's risks of diseases</h3>
-    <input v-model="searchCounty" placeholder="Enter a county" />
+    <input v-model="searchCounty" placeholder="Enter a county" v-on:keyup.enter="getCountyInfo(searchCounty)"/>
     <button v-on:click="getCountyInfo(searchCounty)">Search</button>
     <div v-if="areCounties">
       <p v-if="displayedCountyList.length > 1">Found {{displayedCountyList.length}} counties.</p>

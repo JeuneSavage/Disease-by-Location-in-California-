@@ -32,12 +32,6 @@ export default {
   font-size: 48px;
 }
 
-#heatmap {
-  width: 95%;
-  height: 690px;
-  margin: auto;
-  background-color: #dddddd;
-}
 .container {
   padding-top: 0px;
 }
