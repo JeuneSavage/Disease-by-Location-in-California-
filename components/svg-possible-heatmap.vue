@@ -446,7 +446,7 @@ export default {
 }
 
 #image {
-
+  color: #47a394;
 }
 
 #overlay-grid {
@@ -461,5 +461,3 @@ export default {
 }
 
 </style>
-
-

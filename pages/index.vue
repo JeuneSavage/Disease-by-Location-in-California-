@@ -2,7 +2,7 @@
   <section class="container">
     <img src="~assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
     <br>
-    <nuxt-link :to="'/testgetcounty'">search by country.</nuxt-link>
+    <nuxt-link :to="'/searchcounty'">search by country.</nuxt-link>
     <br>
     <nuxt-link :to="'/diseasemap'">view heatmap.</nuxt-link>
   </section>

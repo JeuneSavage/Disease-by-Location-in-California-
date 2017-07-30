@@ -1,5 +1,5 @@
 <template>
-  <div id="dot" v-tooltip.top-center="countyInfo" v-on:mouseover="setCurrentCounty(county)" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:hover="setCurrentCounty(county)">{{`${county.charAt(0).toUpperCase()}${county.charAt(1).toUpperCase()}`}}</div>
+  <div id="dot" v-tooltip.top-center="countyInfo" v-on:mouseover="setCurrentCounty(county)" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:hover="setCurrentCounty(county)" v-on:click="setCurrentCounty(county)">{{`${county.charAt(0).toUpperCase()}${county.charAt(1).toUpperCase()}`}}</div>
 </template>
 <script>
 export default {

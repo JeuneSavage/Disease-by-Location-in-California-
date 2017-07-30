@@ -1,7 +1,6 @@
 <template>
   <div id="outershell">
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     </head>
     <nuxt/>
@@ -26,6 +25,11 @@ export default {
   width: 100%;
   padding: 100px 0;
   text-align: center;
+}
+ 
+body {
+  background-color: #102528;
+  height: 800px;
 }
 
 .button, .button:visited
