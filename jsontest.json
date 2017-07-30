@@ -1,0 +1,733 @@
+[{
+	"name": "Calaveras",
+	"risks": [{
+		"name": "Botulism, Infant",
+		"rate": "263.158"
+	}, {
+		"name": "Chlamydia",
+		"rate": "138.088"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "40.09"
+	}]
+}, {
+	"name": "Napa",
+	"risks": [{
+		"name": "Botulism, Infant",
+		"rate": "68.681"
+	}, {
+		"name": "Campylobacteriosis",
+		"rate": "39.563"
+	}, {
+		"name": "Chlamydia",
+		"rate": "312.972"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "53.693"
+	}, {
+		"name": "Pertussis",
+		"rate": "34.618"
+	}]
+}, {
+	"name": "Placer",
+	"risks": [{
+		"name": "Botulism, Infant",
+		"rate": "26.681"
+	}, {
+		"name": "Chlamydia",
+		"rate": "258.943"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "48.282"
+	}]
+}, {
+	"name": "Santa Cruz",
+	"risks": [{
+		"name": "Botulism, Infant",
+		"rate": "35.199"
+	}, {
+		"name": "Campylobacteriosis",
+		"rate": "32.035"
+	}, {
+		"name": "Chlamydia",
+		"rate": "356.029"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "65.891"
+	}, {
+		"name": "Pertussis",
+		"rate": "28.759"
+	}]
+}, {
+	"name": "Tulare",
+	"risks": [{
+		"name": "Botulism, Infant",
+		"rate": "26.983"
+	}, {
+		"name": "Campylobacteriosis",
+		"rate": "44.68"
+	}, {
+		"name": "Chlamydia",
+		"rate": "466.23"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "24.175"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "144.618"
+	}]
+}, {
+	"name": "Alameda",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "27.475"
+	}, {
+		"name": "Chlamydia",
+		"rate": "498.926"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "173.862"
+	}]
+}, {
+	"name": "Butte",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "27.188"
+	}, {
+		"name": "Chlamydia",
+		"rate": "504.094"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "140.397"
+	}]
+}, {
+	"name": "Colusa",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "22.451"
+	}, {
+		"name": "Chlamydia",
+		"rate": "273.899"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "44.901"
+	}]
+}, {
+	"name": "Fresno",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "35.738"
+	}, {
+		"name": "Chlamydia",
+		"rate": "609.175"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "26.446"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "37.78"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "180.322"
+	}]
+}, {
+	"name": "Glenn",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "34.53"
+	}, {
+		"name": "Chlamydia",
+		"rate": "314.227"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "86.326"
+	}]
+}, {
+	"name": "Kern",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "34.302"
+	}, {
+		"name": "Chlamydia",
+		"rate": "692.722"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "121.812"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "28.755"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "175.02"
+	}]
+}, {
+	"name": "Kings",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "22.044"
+	}, {
+		"name": "Chlamydia",
+		"rate": "398.124"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "34.736"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "26.052"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "114.895"
+	}]
+}, {
+	"name": "Madera",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "32.267"
+	}, {
+		"name": "Chlamydia",
+		"rate": "471.747"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "35.494"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "101.964"
+	}]
+}, {
+	"name": "Marin",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "53.032"
+	}, {
+		"name": "Chlamydia",
+		"rate": "256.767"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "62.57"
+	}, {
+		"name": "Pertussis",
+		"rate": "20.221"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "22.51"
+	}]
+}, {
+	"name": "Mendocino",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "44.103"
+	}, {
+		"name": "Chlamydia",
+		"rate": "433.116"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "102.907"
+	}]
+}, {
+	"name": "Merced",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "22.986"
+	}, {
+		"name": "Chlamydia",
+		"rate": "414.119"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "28.176"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "125.311"
+	}]
+}, {
+	"name": "Mono",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "36.185"
+	}, {
+		"name": "Chlamydia",
+		"rate": "231.582"
+	}]
+}, {
+	"name": "Plumas",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "20.423"
+	}, {
+		"name": "Chlamydia",
+		"rate": "342.081"
+	}, {
+		"name": "Giardiasis",
+		"rate": "20.423"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "25.528"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "20.423"
+	}]
+}, {
+	"name": "Sacramento",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "20.47"
+	}, {
+		"name": "Chlamydia",
+		"rate": "565.589"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "22.685"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "192.691"
+	}]
+}, {
+	"name": "San Francisco",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "60.016"
+	}, {
+		"name": "Chlamydia",
+		"rate": "888.07"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "142.045"
+	}, {
+		"name": "Giardiasis",
+		"rate": "22.245"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "519.634"
+	}, {
+		"name": "HIV",
+		"rate": "34.063"
+	}, {
+		"name": "Shigellosis",
+		"rate": "25.605"
+	}]
+}, {
+	"name": "San Joaquin",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "34.499"
+	}, {
+		"name": "Chlamydia",
+		"rate": "488.491"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "27.215"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "171.948"
+	}, {
+		"name": "Shigellosis",
+		"rate": "25.84"
+	}]
+}, {
+	"name": "San Luis Obispo",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "27.091"
+	}, {
+		"name": "Chlamydia",
+		"rate": "391.195"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "21.312"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "61.045"
+	}]
+}, {
+	"name": "San Mateo",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "31.66"
+	}, {
+		"name": "Chlamydia",
+		"rate": "310.841"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "70.384"
+	}]
+}, {
+	"name": "Santa Barbara",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "25.399"
+	}, {
+		"name": "Chlamydia",
+		"rate": "515.397"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "75.523"
+	}]
+}, {
+	"name": "Santa Clara",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "25.377"
+	}, {
+		"name": "Chlamydia",
+		"rate": "352.723"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "93.102"
+	}]
+}, {
+	"name": "Sierra",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "31.776"
+	}, {
+		"name": "Chlamydia",
+		"rate": "95.329"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "95.329"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "31.776"
+	}]
+}, {
+	"name": "Siskiyou",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "33.708"
+	}, {
+		"name": "Chlamydia",
+		"rate": "211.236"
+	}]
+}, {
+	"name": "Solano",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "27.023"
+	}, {
+		"name": "Chlamydia",
+		"rate": "566.314"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "160.739"
+	}]
+}, {
+	"name": "Stanislaus",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "34.734"
+	}, {
+		"name": "Chlamydia",
+		"rate": "474.022"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "20.06"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "141.352"
+	}]
+}, {
+	"name": "Sutter",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "24.586"
+	}, {
+		"name": "Chlamydia",
+		"rate": "321.662"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "98.343"
+	}]
+}, {
+	"name": "Tehama",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "35.954"
+	}, {
+		"name": "Chlamydia",
+		"rate": "307.957"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "114.116"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "21.885"
+	}]
+}, {
+	"name": "Ventura",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "23.826"
+	}, {
+		"name": "Chlamydia",
+		"rate": "317.483"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "72.769"
+	}]
+}, {
+	"name": "Yolo",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "29.621"
+	}, {
+		"name": "Chlamydia",
+		"rate": "385.075"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "88.863"
+	}, {
+		"name": "Pertussis",
+		"rate": "39.025"
+	}]
+}, {
+	"name": "Yuba",
+	"risks": [{
+		"name": "Campylobacteriosis",
+		"rate": "21.17"
+	}, {
+		"name": "Chlamydia",
+		"rate": "362.535"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "107.173"
+	}]
+}, {
+	"name": "Alpine",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "86.43"
+	}]
+}, {
+	"name": "Amador",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "176.877"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "48.239"
+	}]
+}, {
+	"name": "Contra Costa",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "422.336"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "118.007"
+	}]
+}, {
+	"name": "Del Norte",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "350.308"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "125.373"
+	}]
+}, {
+	"name": "El Dorado",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "231.517"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "43.136"
+	}]
+}, {
+	"name": "Humboldt",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "460.434"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "176.919"
+	}, {
+		"name": "Pertussis",
+		"rate": "41.454"
+	}]
+}, {
+	"name": "Imperial",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "397.673"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "39.929"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "29.677"
+	}]
+}, {
+	"name": "Inyo",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "295.064"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "21.459"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "21.459"
+	}]
+}, {
+	"name": "Lake",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "388.156"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "228.598"
+	}]
+}, {
+	"name": "Lassen",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "251.865"
+	}, {
+		"name": "Coccidioidomycosis",
+		"rate": "25.832"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "29.061"
+	}]
+}, {
+	"name": "Los Angeles",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "560.935"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "33.911"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "172.932"
+	}]
+}, {
+	"name": "Mariposa",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "182.441"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "49.757"
+	}, {
+		"name": "Salmonellosis",
+		"rate": "33.171"
+	}]
+}, {
+	"name": "Modoc",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "105.186"
+	}]
+}, {
+	"name": "Monterey",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "409.635"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "69.915"
+	}]
+}, {
+	"name": "Nevada",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "230.166"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "44.811"
+	}]
+}, {
+	"name": "Orange",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "359.893"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "73.453"
+	}]
+}, {
+	"name": "Riverside",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "421.036"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "93.077"
+	}]
+}, {
+	"name": "San Benito",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "281.328"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "128.508"
+	}]
+}, {
+	"name": "San Bernardino",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "519.238"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "129.399"
+	}]
+}, {
+	"name": "San Diego",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "532.322"
+	}, {
+		"name": "Early Syphilis",
+		"rate": "25.587"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "112.913"
+	}, {
+		"name": "Pertussis",
+		"rate": "27.328"
+	}]
+}, {
+	"name": "Shasta",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "361.344"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "204.724"
+	}]
+}, {
+	"name": "Sonoma",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "377.508"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "88.391"
+	}]
+}, {
+	"name": "Trinity",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "191.712"
+	}, {
+		"name": "Giardiasis",
+		"rate": "36.868"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "88.483"
+	}, {
+		"name": "Pertussis",
+		"rate": "44.241"
+	}]
+}, {
+	"name": "Tuolumne",
+	"risks": [{
+		"name": "Chlamydia",
+		"rate": "188.904"
+	}, {
+		"name": "Gonorrhea",
+		"rate": "62.357"
+	}]
+}]

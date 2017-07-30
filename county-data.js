@@ -1,16 +1,4 @@
-const Counties = [
-  {
-    name: 'memesville',
-    risks: [
-      { name: 'hackathon', rate: 0.999 }
-    ]
-  },
-  {
-    name: 'Shasta',
-    risks: [
-      { name: 'hackathon', rate: 0.999 }
-    ]
-  }
-]
-
+var fs = require('fs');
+var json = JSON.parse(fs.readFileSync('/jsontest.json', 'utf8'));
+const Counties = json
 export default Counties

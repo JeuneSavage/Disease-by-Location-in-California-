@@ -18,8 +18,13 @@ export default {
       let name = this.$store.state.currentCounty.name
       let str = `${name}: `
       let risks = this.$store.state.currentCounty.risks
+      risks = risks.sort(function (riskA, riskB) {
+        return (riskA.rate - riskB.rate)
+      })
       for (let riskkey in risks) {
-        str = `${str} ${risks[riskkey].name}(${risks[riskkey].rate * 100}%) `
+        if (riskkey < 5) {
+          str = `${str} ${risks[riskkey].name}(${risks[riskkey].rate * 100}%) `
+        }
       }
       return str
     }
