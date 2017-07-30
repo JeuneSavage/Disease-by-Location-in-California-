@@ -4,6 +4,7 @@
       <h1 id="maintitle">Model Disease Heatmap</h1>
     </div>
     <p>This heatmap represents some of the diseases that counties are likely to highly represent.</p>
+    <p>Current selected county: {{currentCounty}}</p>
     <div id="heatmap">
       <svg-possible-heatmap></svg-possible-heatmap>
     </div>
@@ -16,6 +17,11 @@ import SvgPossibleHeatmap from '~/components/svg-possible-heatmap'
 export default {
   components: {
     SvgPossibleHeatmap
+  },
+  computed: {
+    currentCounty () {
+      return this.$store.state.currentCountyName
+    }
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="dot" v-tooltip.top-center="county" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-bind:click="setCurrentCounty(county)"></div>
+  <div id="dot" v-tooltip.top-center="county" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:click="setCurrentCounty(county)"></div>
 </template>
 <script>
 export default {
