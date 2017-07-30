@@ -24,9 +24,9 @@ export default {
   #dot {
     position: absolute;
     border-radius: 15px;
-    width: 15px;
-    height: 15px;
+    padding: 3px;
     background-color: #ff0000;
+    font-size: 10px;
   }
 .tooltip {
   display: block !important;
