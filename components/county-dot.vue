@@ -1,5 +1,5 @@
 <template>
-  <div id="dot" v-tooltip.top-center="county" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:click="setCurrentCounty(county)">{{`${county.charAt(0).toUpperCase()}${county.charAt(1).toUpperCase()}`}}</div>
+  <div id="dot" v-tooltip.top-center="countyInfo" v-on:mouseover="setCurrentCounty(county)" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:hover="setCurrentCounty(county)">{{`${county.charAt(0).toUpperCase()}${county.charAt(1).toUpperCase()}`}}</div>
 </template>
 <script>
 export default {
@@ -11,6 +11,17 @@ export default {
     position: {
       type: Object,
       default: {}
+    }
+  },
+  computed: {
+    countyInfo () {
+      let name = this.$store.state.currentCounty.name
+      let str = `${name}: `
+      let risks = this.$store.state.currentCounty.risks
+      for (let riskkey in risks) {
+        str = `${str} ${risks[riskkey].name}(${risks[riskkey].probability * 100}%) `
+      }
+      return str
     }
   },
   methods: {

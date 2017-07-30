@@ -4,7 +4,7 @@
       <h1 id="maintitle">Model Disease Heatmap</h1>
     </div>
     <p>This heatmap represents some of the diseases that counties are likely to highly represent.</p>
-    <p>Current selected county: {{currentCounty}}</p>
+    <p>Current selected county: {{currentCountyName}}</p>
     <div id="heatmap">
       <svg-possible-heatmap></svg-possible-heatmap>
     </div>
@@ -19,8 +19,8 @@ export default {
     SvgPossibleHeatmap
   },
   computed: {
-    currentCounty () {
-      return this.$store.state.currentCountyName
+    currentCountyName () {
+      return this.$store.state.currentCounty.name
     }
   }
 }
