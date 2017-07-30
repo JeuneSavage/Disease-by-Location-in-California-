@@ -246,182 +246,182 @@ export default {
           }
         },
         {
-          county: 'testplace32',
+          county: 'Mono',
           position: {
             x: 52.5,
             y: 51
           }
         },
         {
-          county: 'testplace33',
+          county: 'San Francisco',
           position: {
             x: 24.5,
             y: 52.5
           }
         },
         {
-          county: 'testplace34',
+          county: 'San Mateo',
           position: {
             x: 25.3,
             y: 56
           }
         },
         {
-          county: 'testplace35',
+          county: 'Alameda',
           position: {
             x: 29.5,
             y: 54.5
           }
         },
         {
-          county: 'testplace36',
+          county: 'Stanislaus',
           position: {
             x: 36,
             y: 55
           }
         },
         {
-          county: 'testplace37',
+          county: 'Mariposa',
           position: {
             x: 45,
             y: 55
           }
         },
         {
-          county: 'testplace38',
+          county: 'Madera',
           position: {
             x: 47,
             y: 59
           }
         },
         {
-          county: 'testplace39',
+          county: 'Santa Cruz',
           position: {
             x: 28,
             y: 59.5
           }
         },
         {
-          county: 'testplace40',
+          county: 'Santa Clara',
           position: {
             x: 31,
             y: 58
           }
         },
         {
-          county: 'testplace41',
+          county: 'Merced',
           position: {
             x: 38.5,
             y: 58
           }
         },
         {
-          county: 'testplace42',
+          county: 'Monterey',
           position: {
             x: 34,
             y: 68
           }
         },
         {
-          county: 'testplace43',
+          county: 'San Benito',
           position: {
             x: 36,
             y: 64
           }
         },
         {
-          county: 'testplace44',
+          county: 'Fresno',
           position: {
             x: 47,
             y: 64
           }
         },
         {
-          county: 'testplace45',
+          county: 'Iniyo',
           position: {
             x: 63,
             y: 64
           }
         },
         {
-          county: 'testplace46',
+          county: 'Kings',
           position: {
             x: 46,
             y: 69.5
           }
         },
         {
-          county: 'testplace47',
+          county: 'Tulare',
           position: {
             x: 54,
             y: 69.5
           }
         },
         {
-          county: 'testplace48',
+          county: 'San Luis Obispo',
           position: {
             x: 40,
             y: 75
           }
         },
         {
-          county: 'testplace49',
+          county: 'Kern',
           position: {
             x: 55,
             y: 77
           }
         },
         {
-          county: 'testplace50',
+          county: 'San Bernardino',
           position: {
             x: 75,
             y: 83
           }
         },
         {
-          county: 'testplace51',
+          county: 'Santa Barbara',
           position: {
             x: 43.5,
             y: 83
           }
         },
         {
-          county: 'testplace52',
+          county: 'Ventura',
           position: {
             x: 52,
             y: 85
           }
         },
         {
-          county: 'testplace53',
+          county: 'Los Angeles',
           position: {
             x: 59,
             y: 85
           }
         },
         {
-          county: 'testplace54',
+          county: 'Riverside',
           position: {
             x: 75,
             y: 92
           }
         },
         {
-          county: 'testplace55',
+          county: 'Orange',
           position: {
             x: 63,
             y: 92.5
           }
         },
         {
-          county: 'testplace56',
+          county: 'San Diego',
           position: {
             x: 71,
             y: 98
           }
         },
         {
-          county: 'testplace57',
+          county: 'Imperial',
           position: {
             x: 81,
             y: 98
