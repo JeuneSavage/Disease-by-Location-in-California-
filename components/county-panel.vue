@@ -1,10 +1,10 @@
 <template>
-  <div id="barOfCountry">
+  <div id="barOfCountry" class="color2bg color5">
     <h3>{{county.name}}</h3>
     <p>Risks</p>
     <div class="risksList">
       <div v-for="(risk, index) in county.risks" :key="index" class="risksListItem">
-        <p>{{index}}: {{risk.name}}, {{risk.probability}}</p>
+        <p>{{risk.name}}: {{risk.probability}}</p>
       </div>
     </div>
   </div>
@@ -31,6 +31,6 @@ export default {
 <style scoped>
 
 #barOfCountry {
-  background-color: #aaaaff;
+  padding: 5px;
 }
 </style>

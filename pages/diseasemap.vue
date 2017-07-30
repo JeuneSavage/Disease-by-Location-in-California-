@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div id="topbar">
-      <h1 id="maintitle">Model Disease Heatmap</h1>
+      <h1 id="maintitle" class="color3 font-effect-shadow-multiple">Model Disease Heatmap</h1>
       <p>Explore disease corrolations by hovering over counties.</p>
       <!--<p>Current selected county: {{currentCountyName}}</p>-->
     </div>
@@ -31,16 +31,15 @@ export default {
 #topbar {
   width: 100%;
   padding: 5px;
-  background-color: #102528;
-  color: #6ab3e6;
 }
 #maintitle {
   padding-top: 10px;
-  font-size: 48px;
+  font-size: 64px;
 }
 
 .container {
   padding-top: 0px;
+  height:800px;
 }
 
 h1 {
@@ -49,7 +48,6 @@ h1 {
 
 hr {
   width: 80%;
-  color: #555555;
   box-shadow: none;
 }
 

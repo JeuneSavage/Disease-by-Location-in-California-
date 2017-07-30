@@ -1,7 +1,7 @@
 <template>
   <div id="outershell">
     <head>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto&effect=shadow-multiple" rel="stylesheet">
     </head>
     <nuxt/>
     <my-footer/>
@@ -28,8 +28,8 @@ export default {
 }
  
 body {
-  background-color: #102528;
   height: 800px;
+  padding-bottom: 0px;
 }
 
 .button, .button:visited
@@ -56,15 +56,47 @@ body {
   font-weight: 300;
   font-size: 2.5em;
   margin: 0;
+  font-family: "Roboto-Thin-Italic";
 }
 
 * {
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 #outershell {
   max-width: 700px;
   margin: auto;
+  height: auto;
 }
 
+.color1 {
+  color: #EEE5A4;
+}
+.color2 {
+  color: #D4C866;
+}
+.color3 {
+  color: #BFB436;
+}
+.color4 {
+  color: #5C7428;
+}
+.color5 {
+  color: #38120f;
+}
+.color1bg {
+  background-color: #EEE5A4;
+}
+.color2bg {
+  background-color: #D4C866;
+}
+.color3bg {
+  background-color: #BFB436;
+}
+.color4bg {
+  background-color: #5C7428;
+}
+.color5bg {
+  background-color: #38120f;
+}
 </style>

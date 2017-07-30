@@ -35,7 +35,7 @@ export default {
   #dot {
     position: absolute;
     border-radius: 15px;
-    padding: 3px;
+    padding: 5px;
     background-color: #ff0000;
     font-size: 10px;
   }

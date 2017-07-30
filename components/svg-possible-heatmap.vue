@@ -1,4 +1,5 @@
 <template>
+<div>
 <div id="heatmapBox">
   <img id="image" src="../assets/img/caltrans.png" alt="nope" class="overlay"/>
   <svg id="overlay-grid" class="overlay" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -19,6 +20,8 @@
     <county-dot :county="dot.county" :position="dot.position"></county-dot>
   </div>
 </div>
+</div>
+<div id="clearer"></div>
 </div>
 </template>
 
@@ -439,6 +442,7 @@ export default {
 <style scoped>
 
 #heatmapBox {
+  display: block;
   position: relative;
   width: 100%;
   height: 800px;
@@ -458,6 +462,10 @@ export default {
   left: 0px;
   width: 100%;
   height: 800px;
+  padding-bottom: 40px;
 }
-
+#clearer {
+  position: absolute; 
+  top: 1000px;
+}
 </style>
