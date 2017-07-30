@@ -2,9 +2,9 @@
   <section class="container">
     <div id="topbar">
       <h1 id="maintitle">Model Disease Heatmap</h1>
+      <p>Explore disease corrolations by hovering over counties.</p>
+      <!--<p>Current selected county: {{currentCountyName}}</p>-->
     </div>
-    <p>This heatmap represents some of the diseases that counties are likely to highly represent.</p>
-    <p>Current selected county: {{currentCountyName}}</p>
     <div id="heatmap">
       <svg-possible-heatmap></svg-possible-heatmap>
     </div>
@@ -31,7 +31,8 @@ export default {
 #topbar {
   width: 100%;
   padding: 5px;
-  background-color: #aaffff;
+  background-color: #102528;
+  color: #6ab3e6;
 }
 #maintitle {
   padding-top: 10px;
