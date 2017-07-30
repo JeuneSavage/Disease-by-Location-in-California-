@@ -1,5 +1,6 @@
 <template>
-<div>
+<div id="heatWrap">
+  <div id="spaceTakerUpper"></div>
 <div id="heatmapBox">
   <img id="image" src="../assets/img/caltrans.png" alt="nope" class="overlay"/>
   <svg id="overlay-grid" class="overlay" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -466,6 +467,8 @@ export default {
 }
 #clearer {
   position: absolute; 
-  top: 1000px;
+  height: 0px;
+  background-color: #ffffaa;
 }
 </style>
+

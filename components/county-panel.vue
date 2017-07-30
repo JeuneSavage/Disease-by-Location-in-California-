@@ -19,7 +19,7 @@ export default {
         return {
           name: 'default',
           risks: [
-            {name: 'hi', probability: 'bye', index: 0}
+            {name: 'hi', rate: 'bye'}
           ]
         }
       }
@@ -31,6 +31,10 @@ export default {
 <style scoped>
 
 #barOfCountry {
-  padding: 5px;
+  padding: 3px;
+}
+
+p, h3, h1 {
+  color: #f38630;
 }
 </style>

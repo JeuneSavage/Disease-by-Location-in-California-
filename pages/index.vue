@@ -1,21 +1,20 @@
 <template>
   <section class="container">
-    <div>
-      <h1 id="title" class="color3 font-effect-shadow-multiple">California Disease Predictor by County</h1>
+    <div id="topbg" class="color1bg">
+      <h1 id="title" class="color3 font-effect-shadow-multiple">California Disease Model by County</h1>
     </div>
-    <h3 >We use Machine Learning to advance statewide public health awareness of disease risk.</h3>
-    <div id="leftpg">
-      <img src="~assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
-      <p id="credits">Built on Nuxt Express-Template</p>
-    </div>
-    <div id="rightpg">
-      <br>
-      <div id="button1">
-      <nuxt-link class="color4" :to="'/searchcounty'">search by country.</nuxt-link>
+    <div id="picarea">
+      <h3 id="moresaying">We use Machine Learning to advance statewide public health awareness of disease risk.</h3>
+      <div id="leftpg">
       </div>
-      <br>
-      <div id="button2">
-      <nuxt-link class="color4" :to="'/diseasemap'">view heatmap.</nuxt-link>
+      <div id="rightpg">
+        <br>
+        <div id="button1">
+        <nuxt-link class="color4" :to="'/searchcounty'">search by country</nuxt-link>
+        </div>
+        <div id="button2">
+        <nuxt-link class="color4" :to="'/diseasemap'">view heatmap</nuxt-link>
+        </div>
       </div>
     </div>
     <div id="clearer"></div>
@@ -32,23 +31,34 @@ export default {
   padding: 6px;
   border-radius: 5px;
   background-color: #EEE5A4;
+  display: inline-block;
+  margin: auto;
+  margin-right: 20px;
 }
 
+#topbg {
+  margin: 0px; 
+}
 #button2 {
   padding: 6px;
   border-radius: 5px;
+  display: inline-block;
   background-color: #EEE5A4;
+  margin: auto;
 }
 #title {
   margin: 0px;
 }
-
-#leftpg {
-  float: left;
+#moresaying {
+  padding-top: 10px;
+  margin-top: 0px;
 }
 
-#rightpg {
-  float: right;
+#picarea {
+  background-image: url("../static/feild.jpg");
+  width: 100%;
+  height: 500px;
+  background-position-x: -120px;
 }
 
 #clearer {
@@ -58,8 +68,9 @@ export default {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 48px;
   margin-top: 10px;
+  padding: 10px;
 }
 .title
 {

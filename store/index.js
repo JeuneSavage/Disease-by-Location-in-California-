@@ -7,14 +7,14 @@ const store = () =>
       currentCounty: {
         name: 'default store county.',
         risks: [
-          { name: 'cancer', probability: 0.999 }
+          { name: 'cancer', rate: 0.999 }
         ]
       }
     },
     mutations: {
       replace (state, newCountyName) {
         let nextCounty = Counties.filter(function (county) {
-          return (county.name === newCountyName)
+          return (county.name.toUpperCase() === newCountyName.toUpperCase())
         })
         // console.log(nextCounty)
         if (nextCounty && nextCounty.length === 1) {

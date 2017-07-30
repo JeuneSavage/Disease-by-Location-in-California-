@@ -1,8 +1,9 @@
 <template>
   <section class="container">
-    <div id="topbar">
-      <h1 id="maintitle" class="color3 font-effect-shadow-multiple">Model Disease Heatmap</h1>
-      <p>Explore disease corrolations by hovering over counties.</p>
+    <div id="topbar" class="color1bg">
+      <h1 id="maintitle" class="color3 font-effect-shadow-multiple">MODEL DISEASE HEATMAP</h1>
+      <hr>
+      <p id="saying">Explore California disease corrolations by hovering over counties.</p>
       <!--<p>Current selected county: {{currentCountyName}}</p>-->
     </div>
     <div id="heatmap">
@@ -27,14 +28,24 @@ export default {
 </script>
 
 <style scoped>
+#heatmap {
+  position: relative;
+}
 
 #topbar {
   width: 100%;
-  padding: 5px;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 #maintitle {
   padding-top: 10px;
+  margin-top: 0px;
   font-size: 64px;
+  margin-bottom: 0px;
+}
+#saying {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .container {

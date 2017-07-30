@@ -1,18 +1,10 @@
 import { Router } from 'express'
+import Counties from '../../county-data'
 
 const router = new Router()
 
-const fakeCounties = [
-  {
-    name: 'danktown',
-    risks: [
-      { name: 'cancer', probability: 0.876 }
-    ]
-  }
-]
-
 router.get('/counties/name/:id', function (req, res) {
-  let responseCounties = fakeCounties.filter(function (county) {
+  let responseCounties = Counties.filter(function (county) {
     return county.name === req.params.id
   })
   console.log(`response countries: ${responseCounties}, req params: ${req.params.id}`)

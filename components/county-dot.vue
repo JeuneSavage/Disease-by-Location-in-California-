@@ -19,7 +19,7 @@ export default {
       let str = `${name}: `
       let risks = this.$store.state.currentCounty.risks
       for (let riskkey in risks) {
-        str = `${str} ${risks[riskkey].name}(${risks[riskkey].probability * 100}%) `
+        str = `${str} ${risks[riskkey].name}(${risks[riskkey].rate * 100}%) `
       }
       return str
     }
@@ -36,8 +36,9 @@ export default {
     position: absolute;
     border-radius: 15px;
     padding: 5px;
-    background-color: #ff0000;
+    background-color: #f38630;
     font-size: 10px;
+    box-shadow: 2px 2px 1px #888888;
   }
 .tooltip {
   display: block !important;

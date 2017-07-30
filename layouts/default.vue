@@ -70,28 +70,28 @@ body {
 }
 
 .color1 {
-  color: #EEE5A4;
+  color: #69D2E7;
 }
 .color2 {
-  color: #D4C866;
+  color: #F38630;
 }
 .color3 {
-  color: #BFB436;
+  color: #FA6900;
 }
 .color4 {
-  color: #5C7428;
+  color: #E0E4CC;
 }
 .color5 {
-  color: #38120f;
+  color: #A7DBD8;
 }
 .color1bg {
-  background-color: #EEE5A4;
+  background-color: #A7DBD8;
 }
 .color2bg {
-  background-color: #D4C866;
+  background-color: #A7DBD8;
 }
 .color3bg {
-  background-color: #BFB436;
+  background-color: #E0E4CC;
 }
 .color4bg {
   background-color: #5C7428;
