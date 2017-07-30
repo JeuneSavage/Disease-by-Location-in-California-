@@ -230,6 +230,202 @@ export default {
             x: 34.5,
             y: 51
           }
+        },
+        {
+          county: 'testplace30',
+          position: {
+            x: 39,
+            y: 50
+          }
+        },
+        {
+          county: 'testplace31',
+          position: {
+            x: 45,
+            y: 50
+          }
+        },
+        {
+          county: 'testplace32',
+          position: {
+            x: 52.5,
+            y: 51
+          }
+        },
+        {
+          county: 'testplace33',
+          position: {
+            x: 24.5,
+            y: 52.5
+          }
+        },
+        {
+          county: 'testplace34',
+          position: {
+            x: 25.3,
+            y: 56
+          }
+        },
+        {
+          county: 'testplace35',
+          position: {
+            x: 29.5,
+            y: 54.5
+          }
+        },
+        {
+          county: 'testplace36',
+          position: {
+            x: 36,
+            y: 55
+          }
+        },
+        {
+          county: 'testplace37',
+          position: {
+            x: 45,
+            y: 55
+          }
+        },
+        {
+          county: 'testplace38',
+          position: {
+            x: 47,
+            y: 59
+          }
+        },
+        {
+          county: 'testplace39',
+          position: {
+            x: 28,
+            y: 59.5
+          }
+        },
+        {
+          county: 'testplace40',
+          position: {
+            x: 31,
+            y: 58
+          }
+        },
+        {
+          county: 'testplace41',
+          position: {
+            x: 38.5,
+            y: 58
+          }
+        },
+        {
+          county: 'testplace42',
+          position: {
+            x: 34,
+            y: 68
+          }
+        },
+        {
+          county: 'testplace43',
+          position: {
+            x: 36,
+            y: 64
+          }
+        },
+        {
+          county: 'testplace44',
+          position: {
+            x: 47,
+            y: 64
+          }
+        },
+        {
+          county: 'testplace45',
+          position: {
+            x: 63,
+            y: 64
+          }
+        },
+        {
+          county: 'testplace46',
+          position: {
+            x: 46,
+            y: 69.5
+          }
+        },
+        {
+          county: 'testplace47',
+          position: {
+            x: 54,
+            y: 69.5
+          }
+        },
+        {
+          county: 'testplace48',
+          position: {
+            x: 40,
+            y: 75
+          }
+        },
+        {
+          county: 'testplace49',
+          position: {
+            x: 55,
+            y: 77
+          }
+        },
+        {
+          county: 'testplace50',
+          position: {
+            x: 75,
+            y: 83
+          }
+        },
+        {
+          county: 'testplace51',
+          position: {
+            x: 43.5,
+            y: 83
+          }
+        },
+        {
+          county: 'testplace52',
+          position: {
+            x: 52,
+            y: 85
+          }
+        },
+        {
+          county: 'testplace53',
+          position: {
+            x: 59,
+            y: 85
+          }
+        },
+        {
+          county: 'testplace54',
+          position: {
+            x: 75,
+            y: 92
+          }
+        },
+        {
+          county: 'testplace55',
+          position: {
+            x: 63,
+            y: 92.5
+          }
+        },
+        {
+          county: 'testplace56',
+          position: {
+            x: 71,
+            y: 98
+          }
+        },
+        {
+          county: 'testplace57',
+          position: {
+            x: 81,
+            y: 98
+          }
         }
       ]
     }
