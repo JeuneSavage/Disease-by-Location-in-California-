@@ -1,5 +1,5 @@
 <template>
-  <div id="dot" v-tooltip.top-center="county" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%` }"></div>
+  <div id="dot" v-tooltip.top-center="county" v-bind:style="{top: `${position.y * 7 - 3.5}px`, left: `${position.x - 1}%`}" v-on:click="setCurrentCounty(county)"></div>
 </template>
 <script>
 export default {
@@ -11,6 +11,11 @@ export default {
     position: {
       type: Object,
       default: {}
+    }
+  },
+  methods: {
+    setCurrentCounty (county) {
+      this.$store.commit('replace', county)
     }
   }
 }
