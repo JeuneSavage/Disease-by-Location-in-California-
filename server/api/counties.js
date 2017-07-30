@@ -11,7 +11,7 @@ const fakeCounties = [
   }
 ]
 
-router.get('/counties/:id', function (req, res) {
+router.get('/counties/name/:id', function (req, res) {
   let responseCounties = fakeCounties.filter(function (county) {
     return county.name === req.params.id
   })

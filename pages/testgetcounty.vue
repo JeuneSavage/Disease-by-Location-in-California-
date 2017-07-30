@@ -38,7 +38,7 @@ export default {
 
   methods: {
     async getCountyInfo (countyToSearch) {
-      let { data } = await axios.get('/api/counties/' + countyToSearch)
+      let { data } = await axios.get('/api/counties/name/' + countyToSearch)
       this.displayedCountyList = []
       if (data && data.length) {
         this.statusMsg = ''

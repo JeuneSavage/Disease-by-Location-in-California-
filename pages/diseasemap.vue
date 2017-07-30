@@ -5,12 +5,18 @@
     </div>
     <p>This heatmap represents some of the diseases that counties are likely to highly represent.</p>
     <div id="heatmap">
+      <svg-possible-heatmap></svg-possible-heatmap>
     </div>
   </section>
 </template>
 
 <script>
+import SvgPossibleHeatmap from '~/components/svg-possible-heatmap'
+
 export default {
+  components: {
+    SvgPossibleHeatmap
+  }
 }
 </script>
 
