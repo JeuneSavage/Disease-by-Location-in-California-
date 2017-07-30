@@ -29,217 +29,217 @@ export default {
     return {
       countyDots: [
         {
-          county: 'testplace',
+          county: 'Del Norte',
           position: {
             x: 13,
             y: 13
           }
         },
         {
-          county: 'testplace2',
+          county: 'Siskiyou',
           position: {
             x: 25,
             y: 15
           }
         },
         {
-          county: 'testplace3',
+          county: 'Modoc',
           position: {
             x: 38,
             y: 13
           }
         },
         {
-          county: 'testplace4',
+          county: 'Humbdolt',
           position: {
             x: 13,
             y: 25
           }
         },
         {
-          county: 'testplace5',
+          county: 'Trinity',
           position: {
             x: 18,
             y: 25
           }
         },
         {
-          county: 'testplace6',
+          county: 'Shasta',
           position: {
             x: 28,
             y: 23
           }
         },
         {
-          county: 'testplace7',
+          county: 'Lassen',
           position: {
             x: 39,
             y: 23
           }
         },
         {
-          county: 'testplace8',
+          county: 'Mendocino',
           position: {
             x: 17,
             y: 37
           }
         },
         {
-          county: 'testplace9',
+          county: 'Tehama',
           position: {
             x: 27,
             y: 30
           }
         },
         {
-          county: 'testplace10',
+          county: 'Plumas',
           position: {
             x: 39,
             y: 31
           }
         },
         {
-          county: 'testplace11',
+          county: 'Glenn',
           position: {
             x: 25,
             y: 35
           }
         },
         {
-          county: 'testplace12',
+          county: 'Butte',
           position: {
             x: 32,
             y: 35
           }
         },
         {
-          county: 'testplace13',
+          county: 'Sierra',
           position: {
             x: 40,
             y: 35
           }
         },
         {
-          county: 'testplace14',
+          county: 'Lake',
           position: {
             x: 22,
             y: 40
           }
         },
         {
-          county: 'testplace15',
+          county: 'Colusa',
           position: {
             x: 27,
             y: 39.5
           }
         },
         {
-          county: 'testplace16',
+          county: 'Sutter',
           position: {
             x: 30,
             y: 39.5
           }
         },
         {
-          county: 'testplace17',
+          county: 'Yuba',
           position: {
             x: 33,
             y: 39
           }
         },
         {
-          county: 'testplace18',
+          county: 'Nevada',
           position: {
             x: 37,
             y: 38
           }
         },
         {
-          county: 'testplace19',
+          county: 'Placer',
           position: {
             x: 41,
             y: 39.5
           }
         },
         {
-          county: 'testplace20',
+          county: 'Sonoma',
           position: {
             x: 21,
             y: 45.5
           }
         },
         {
-          county: 'testplace21',
+          county: 'Napa',
           position: {
             x: 26,
             y: 46
           }
         },
         {
-          county: 'testplace22',
+          county: 'Yolo',
           position: {
             x: 29,
             y: 44
           }
         },
         {
-          county: 'testplace23',
+          county: 'Sacramento',
           position: {
             x: 34,
             y: 46
           }
         },
         {
-          county: 'testplace24',
+          county: 'El Dorado',
           position: {
             x: 40,
             y: 43.5
           }
         },
         {
-          county: 'testplace25',
+          county: 'Solano',
           position: {
             x: 29,
             y: 48
           }
         },
         {
-          county: 'testplace26',
+          county: 'Alpine',
           position: {
             x: 45,
             y: 45
           }
         },
         {
-          county: 'testplace27',
+          county: 'Marin',
           position: {
             x: 22,
             y: 50
           }
         },
         {
-          county: 'testplace28',
+          county: 'Contra Costa',
           position: {
             x: 29,
             y: 51.5
           }
         },
         {
-          county: 'testplace29',
+          county: 'San Joaquin',
           position: {
             x: 34.5,
             y: 51
           }
         },
         {
-          county: 'testplace30',
+          county: 'Calveras',
           position: {
             x: 39,
             y: 50
           }
         },
         {
-          county: 'testplace31',
+          county: 'Tuolumme',
           position: {
             x: 45,
             y: 50
