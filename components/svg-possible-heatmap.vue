@@ -48,6 +48,188 @@ export default {
             x: 38,
             y: 13
           }
+        },
+        {
+          county: 'testplace4',
+          position: {
+            x: 13,
+            y: 25
+          }
+        },
+        {
+          county: 'testplace5',
+          position: {
+            x: 18,
+            y: 25
+          }
+        },
+        {
+          county: 'testplace6',
+          position: {
+            x: 28,
+            y: 23
+          }
+        },
+        {
+          county: 'testplace7',
+          position: {
+            x: 39,
+            y: 23
+          }
+        },
+        {
+          county: 'testplace8',
+          position: {
+            x: 17,
+            y: 37
+          }
+        },
+        {
+          county: 'testplace9',
+          position: {
+            x: 27,
+            y: 30
+          }
+        },
+        {
+          county: 'testplace10',
+          position: {
+            x: 39,
+            y: 31
+          }
+        },
+        {
+          county: 'testplace11',
+          position: {
+            x: 25,
+            y: 35
+          }
+        },
+        {
+          county: 'testplace12',
+          position: {
+            x: 32,
+            y: 35
+          }
+        },
+        {
+          county: 'testplace13',
+          position: {
+            x: 40,
+            y: 35
+          }
+        },
+        {
+          county: 'testplace14',
+          position: {
+            x: 22,
+            y: 40
+          }
+        },
+        {
+          county: 'testplace15',
+          position: {
+            x: 27,
+            y: 39.5
+          }
+        },
+        {
+          county: 'testplace16',
+          position: {
+            x: 30,
+            y: 39.5
+          }
+        },
+        {
+          county: 'testplace17',
+          position: {
+            x: 33,
+            y: 39
+          }
+        },
+        {
+          county: 'testplace18',
+          position: {
+            x: 37,
+            y: 38
+          }
+        },
+        {
+          county: 'testplace19',
+          position: {
+            x: 41,
+            y: 39.5
+          }
+        },
+        {
+          county: 'testplace20',
+          position: {
+            x: 21,
+            y: 45.5
+          }
+        },
+        {
+          county: 'testplace21',
+          position: {
+            x: 26,
+            y: 46
+          }
+        },
+        {
+          county: 'testplace22',
+          position: {
+            x: 29,
+            y: 44
+          }
+        },
+        {
+          county: 'testplace23',
+          position: {
+            x: 34,
+            y: 46
+          }
+        },
+        {
+          county: 'testplace24',
+          position: {
+            x: 40,
+            y: 43.5
+          }
+        },
+        {
+          county: 'testplace25',
+          position: {
+            x: 29,
+            y: 48
+          }
+        },
+        {
+          county: 'testplace26',
+          position: {
+            x: 45,
+            y: 45
+          }
+        },
+        {
+          county: 'testplace27',
+          position: {
+            x: 22,
+            y: 50
+          }
+        },
+        {
+          county: 'testplace28',
+          position: {
+            x: 29,
+            y: 51.5
+          }
+        },
+        {
+          county: 'testplace29',
+          position: {
+            x: 34.5,
+            y: 51
+          }
         }
       ]
     }
